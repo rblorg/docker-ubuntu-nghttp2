@@ -1,4 +1,4 @@
-# docker-ubuntu-nghttp2
+# Small size nghttp2 Docker image
 
 Small size Docker based image for [nghttp2](https://nghttp2.org/).
 
