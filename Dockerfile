@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+MAINTAINER Erez Arbell <https://github.com/ErezArbell/docker-ubuntu-nghttp2>
 
 ARG nghttp2_version=1.42.0
 
@@ -30,5 +31,4 @@ apt-get remove --purge -y \
 apt-get autoremove --purge -y
 
 RUN ldconfig
-
 WORKDIR /workspace/nghttp2-${nghttp2_version}
